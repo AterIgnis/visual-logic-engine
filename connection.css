@@ -1,0 +1,15 @@
+.socket-input-boolean.socket-output-boolean .main-path {
+  stroke: #bb4444;
+}
+.socket-input-number.socket-output-number .main-path {
+  stroke: #44bb44;
+}
+.socket-input-composite.socket-output-composite .main-path {
+  stroke: #bb44bb;
+}
+.socket-input-link.socket-output-link .main-path {
+  stroke: #bbbb44;
+}
+.main-path.split {
+  stroke-dasharray: 10;
+}

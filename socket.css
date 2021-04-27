@@ -1,0 +1,32 @@
+.socket {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+  margin: 6px;
+  vertical-align: middle;
+  background: #96b38a;
+  z-index: 2;
+  box-sizing: border-box; }
+.socket.boolean {
+  background: #bb4444;
+}
+.socket.number {
+  background: #44bb44;
+}
+.socket.composite {
+  background: #bb44bb;
+}
+.socket.link {
+  background: #bbbb44;
+}
+.socket:hover {
+  border-width: 4px; }
+.socket.multiple {
+  border-color: yellow; }
+.socket.output {
+  margin-right: -12px; }
+.socket.input {
+  margin-left: -12px; }

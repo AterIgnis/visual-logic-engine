@@ -1,0 +1,43 @@
+html body {
+  width: 100%;
+  margin: 0;
+}
+
+select, input {
+  width: 100%;
+  border-radius: 30px;
+  background-color: white;
+  padding: 2px 6px;
+  border: 1px solid #999;
+  font-size: 110%;
+  width: 170px;
+}
+
+.editor {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 100vh;
+    width: inherit;
+}
+
+.dock {
+    height: 150px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border: 2px solid #000000;
+    padding-top: 8px;
+}
+
+.dock .item {
+    display: inline-block;
+    vertical-align: top;
+    transform: scale(0.8);
+    transform-origin: 50% 0;
+}
+
+.container {
+    flex: 1;
+    overflow: hidden;
+}

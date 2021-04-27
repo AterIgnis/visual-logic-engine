@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="node.css">
+    <link rel="stylesheet" href="socket.css">
+    <link rel="stylesheet" href="connection.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rete@1.4.5-rc.1/build/rete.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rete-vue-render-plugin@0.5.1/build/vue-render-plugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rete-connection-plugin@0.9.0/build/connection-plugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rete-area-plugin@0.2.1/build/area-plugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rete-history-plugin@0.2.1/build/history-plugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rete-dock-plugin@0.2.1/build/dock-plugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/rete-keyboard-plugin@0.1.2/build/keyboard-plugin.min.js"></script>
+  </head>
+  <body>
+    <div class="editor">
+      <div id="buttons">
+        <button id="prepare">Prepare</button>
+        <button id="calculate">Calculate</button>
+        <button id="export">Export</button>
+        <button id="save">Save</button>
+        <button id="load">Load</button>
+      </div>
+      <div class="dock"></div>
+      <div class="container">
+        <div class="node-editor" id="rete"></div>
+      </div>
+    </div>
+    <script src="controls.js"></script>
+    <script src="components.js"></script>
+    <script src="ordering_logic.js"></script>
+    <script src="calculation_engine.js"></script>
+    <script src="init.js"></script>
+  </body>
+</html>
